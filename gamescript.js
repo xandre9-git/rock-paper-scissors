@@ -59,7 +59,7 @@ function startGame(playerSelection, computerSelection) {
   } else if (playerSelection == "rock" && computerSelection == "scissors") {
     roundResult.textContent = "You win! Rock beats scissors!";
   } else if (playerSelection == "paper" && computerSelection == "scissors") {
-    roundResult.textContent = "You lose! Scissor beats paper!";
+    roundResult.textContent = "You lose! Scissors beats paper!";
   } else if (playerSelection == "paper" && computerSelection == "rock") {
     roundResult.textContent = "You win! Paper beats rock!";
   } else if (playerSelection == "scissors" && computerSelection == "rock") {
