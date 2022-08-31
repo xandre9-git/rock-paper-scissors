@@ -86,9 +86,9 @@ function game(player) {
     round = startGame(player, computerPlay());
     console.log(round);
     roundNum += 1;
-    if (round.includes("You win!") == true) {
+    if (round.includes("You win!")) {
       yourScore += 1;
-    } else if (round.includes("You lose!") == true) {
+    } else if (round.includes("You lose!")) {
       cpuScore += 1;
     } else {
       null;
